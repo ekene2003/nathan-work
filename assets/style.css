@@ -1,0 +1,134 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  flex-flow: wrap;
+  list-style-type: none;
+}
+@media screen and (min-width:768px) {
+  .header{
+    background:white !important;
+    width: 100%;
+  }
+  .navbar-nav{
+
+  }
+  .nav-link{
+    color: grey;
+  }
+  .nav-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .brand-img{
+width: 5rem;
+height: 4rem;
+  }
+  .brand-h{
+    color: black;
+  }
+  .nav-brand{
+    display: flex;
+    align-items: center;
+  }
+  .book{
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: .2rem;
+    border: none;
+    background: #71c5ff;
+    color: white;
+  }
+  .hero-section{
+    background: #182025;
+    position: relative !important;
+  }
+  .bg-img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: top;
+    opacity: 0.4;
+    filter: blur(2px);
+  }
+  .hero-writeups{
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    padding: 0 4rem;
+
+  }
+.hero-h{
+font-size: 4rem;
+color: white;
+margin-bottom: 1rem;
+}
+.hero-p{
+  color: white;
+  margin-bottom: 1rem;
+}
+.hero-btn{
+  padding: .7rem;
+  background-image:linear-gradient( to left,#0082ff 60%,#30a8ff);
+  border: none;
+  border-radius: .3rem;
+}
+.hero-btn a{
+  color: white;
+  text-decoration: none;
+}
+.service-section{
+ background:#70c4ff;
+}
+.service-wrap {
+  display: flex !important;
+  justify-content: center;
+  gap: 2rem;
+}
+.services{
+padding: .4rem;
+color: white;
+}
+.special{
+  padding:0 .6rem;
+  background-color: #46b3ff;
+}
+.service-icon {
+height: 3rem;
+width: 2rem;
+}
+.service-h{
+
+}
+.service-p{
+
+}
+.service-btn{
+background: transparent;
+border: 2px solid white;
+padding: .5rem;
+border-radius: .5rem;
+}
+.service-a{
+  text-decoration: none;
+  color: white;
+}
+.footer{
+  padding: 2rem;
+}
+.footer-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-small{
+color: gray;
+}
+}
+@media screen and (max-width:768px) {
+  
+}
