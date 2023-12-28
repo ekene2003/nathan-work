@@ -120,13 +120,35 @@ border-radius: .5rem;
 }
 .footer{
   padding: 2rem;
+
 }
 .footer-wrap{
-  display: flex;
-  justify-content: space-between;
+  display: flex !important;
+  justify-content: space-between ;
 }
 .footer-small{
 color: gray;
+}
+/* contact section */
+.contact-section{
+  background-color: #182025;
+  background-image: url("./images/pexels-rdne-stock-project-6129494.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  
+}
+iframe{
+  width: 100%;
+  height: 80vh;
+}
+.contact-h{
+  color: white;
+  margin-top: 2rem;
+
+}
+label{
+  color: white;
 }
 }
 @media screen and (max-width:768px) {
