@@ -150,6 +150,21 @@ iframe{
 label{
   color: white;
 }
+.contact-submit{
+  padding: .5rem;
+  background: #30a8ff;
+  border-radius: .5rem;
+  color: white;
+  border: none;
+}
+.navigation{
+padding-top: 1rem;
+
+}
+.navigation a{
+text-decoration: none;
+color: white;
+}
 }
 @media screen and (max-width:768px) {
   
