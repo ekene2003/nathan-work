@@ -50,7 +50,7 @@ height: 4rem;
   }
   .bg-img{
     width: 100%;
-    height: 90vh;
+    height: 30rem;
     object-fit: cover;
     object-position: top;
     opacity: 0.4;
@@ -58,7 +58,7 @@ height: 4rem;
   }
   .hero-writeups{
     position: absolute;
-    top: 40%;
+    top: 30%;
     z-index: 999;
     padding: 0 4rem;
 
@@ -135,12 +135,11 @@ color: gray;
   background-image: url("./images/pexels-rdne-stock-project-6129494.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-blend-mode: overlay;
-  
+  background-blend-mode: overlay;  
 }
 iframe{
   width: 100%;
-  height: 80vh;
+  height: 30rem;
 }
 .contact-h{
   color: white;
@@ -165,7 +164,255 @@ padding-top: 1rem;
 text-decoration: none;
 color: white;
 }
+/* services section */
+.service-main{
+/* background: #46b3ff; */
+background-image: linear-gradient(to left, #46b3ff  10%, #0082ff);
+padding: 3rem ;
+background-attachment: fixed;
+}
+.navigation{
+
+}
+.service-main-h{
+color: white;
+}
+.service-main-p{
+color: white;
+margin-bottom: 1rem;
+}
+.card-wrap{
+
+}
+.card{
+  
+}
+.card-img-top{
+
+}
+.card-text{
+  color: grey;
+}
+/* booking page */
+.booking-section{
+  background-color: #182025;
+  background-image: url("./images/pexels-chokniti-khongchum-3938023.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;  
+  padding: 3rem;
+}
+.booking-img{
+  width: 100%;
+  height: 35rem;
+  object-fit: cover;
+}
 }
 @media screen and (max-width:768px) {
+  .header{
+    background:white !important;
+    width: 100%;
+    z-index: 999;
+  }
+  .navbar-nav{
+
+  }
+  .nav-link{
+    color: grey;
+  }
+  .nav-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    z-index: 999;
+
+  }
+  .brand-img{
+width: 5rem;
+height: 4rem;
+  }
+  .brand-h{
+    color: black;
+  }
+  .nav-brand{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .book{
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: .2rem;
+    border: none;
+    background: #71c5ff;
+    color: white;
+  }
+  .hero-section{
+    background: #182025;
+    position: relative !important;
+    z-index: 9;
+
+  }
+  .bg-img{
+    width: 100%;
+    height: 42rem;
+    object-fit: cover;
+    object-position: top;
+    opacity: 0.4;
+    filter: blur(2px);
+  }
+  .hero-writeups{
+    position: absolute;
+    top: 28%;
+    z-index: 99;
+    padding: 0 4rem;
+
+  }
+.hero-h{
+font-size: 4rem;
+color: white;
+margin-bottom: 1rem;
+}
+.hero-p{
+  color: white;
+  margin-bottom: 1rem;
+}
+.hero-btn{
+  padding: .7rem;
+  background-image:linear-gradient( to left,#0082ff 60%,#30a8ff);
+  border: none;
+  border-radius: .3rem;
+}
+.hero-btn a{
+  color: white;
+  text-decoration: none;
+}
+.service-section{
+ background:#70c4ff;
+}
+.service-wrap {
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+}
+.services{
+padding: .4rem;
+color: white;
+}
+.special{
+  padding:0 .6rem;
+  background-color: #46b3ff;
+}
+.service-icon {
+height: 3rem;
+width: 2rem;
+}
+.service-h{
+
+}
+.service-p{
+
+}
+.service-btn{
+background: transparent;
+border: 2px solid white;
+padding: .5rem;
+border-radius: .5rem;
+}
+.service-a{
+  text-decoration: none;
+  color: white;
+}
+.footer{
+  padding: 2rem;
+
+}
+.footer-wrap{
+  display: flex !important;
+  justify-content: space-between ;
+}
+.footer-small{
+color: gray;
+}
+/* contact section */
+.contact-section{
+  background-color: #182025;
+  background-image: url("./images/pexels-rdne-stock-project-6129494.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;  
+}
+iframe{
+  width: 100%;
+  height: 30rem;
+}
+.contact-h{
+  color: white;
+  margin-top: 2rem;
+
+}
+label{
+  color: white;
+}
+.contact-submit{
+  padding: .5rem;
+  background: #30a8ff;
+  border-radius: .5rem;
+  color: white;
+  border: none;
+}
+.navigation{
+padding-top: 1rem;
+
+}
+.navigation a{
+text-decoration: none;
+color: white;
+}
+/* services section */
+.service-main{
+/* background: #46b3ff; */
+background-image: linear-gradient(to left, #46b3ff  10%, #0082ff);
+padding: 3rem ;
+background-attachment: fixed;
+}
+.navigation{
+
+}
+.service-main-h{
+color: white;
+}
+.service-main-p{
+color: white;
+margin-bottom: 1rem;
+}
+.card-wrap{
+
+}
+.card{
   
+}
+.card-img-top{
+
+}
+.card-text{
+  color: grey;
+}
+/* booking page */
+.booking-section{
+  background-color: #182025;
+  background-image: url("./images/pexels-chokniti-khongchum-3938023.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;  
+  padding: 3rem;
+}
+.booking-img{
+  width: 100%;
+  height: 35rem;
+  object-fit: cover;
+}
 }
